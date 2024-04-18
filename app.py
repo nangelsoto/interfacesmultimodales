@@ -18,7 +18,7 @@ def on_message(client, userdata, message):
         
 
 
-broker="broker.hivemq.com"
+broker="64.92.183.45"
 port=1883
 client1= paho.Client("nataliaapp")
 client1.on_message = on_message
